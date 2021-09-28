@@ -1,0 +1,35 @@
+$mainColor: #EDD7C3;
+$mainDarkColor: #1A253F;
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 300;
+  src: url("Fonts/NanumGothicLight.woff2") format('woff2'),
+  url("Fonts/NanumGothicLight.woff") format('woff'),
+  url("Fonts/NanumGothicLight.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: normal;
+  src: url("Fonts/NanumGothic.woff2") format('woff2'),
+  url("Fonts/NanumGothic.woff") format('woff'),
+  url("Fonts/NanumGothic.otf") format('otf')
+}
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: bold;
+  src: url("Fonts/NanumGothicBold.woff2") format('woff2'),
+  url("Fonts/NanumGothicBold.woff") format('woff'),
+  url("Fonts/NanumGothicBold.otf") format('truetype')
+}
+
+.App {
+  height: 100vh;
+
+  font-family: "Nanum Gothic", sans-serif;
+}

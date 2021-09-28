@@ -1,11 +1,15 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Home from "./Pages/Home";
+import Nav from "./Components/common/Nav";
 
 function App() {
-  return (
-    <Home name="노관옥"/>
-  );
+    return (
+        <div className='App'>
+            <Nav/>
+            <Home name="노관옥"/>
+        </div>
+    );
 }
 
 export default App;

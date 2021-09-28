@@ -1,0 +1,19 @@
+@import '../../App.scss';
+
+.Nav {
+  color: $mainColor;
+  padding: 16px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  & > h1 {
+    margin: 0;
+  }
+
+}
+
+.Nav:hover {
+  background-color: #FFFFFF4F;
+  transition-duration: 1s;
+}

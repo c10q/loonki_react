@@ -1,13 +1,13 @@
 import React from 'react';
 import './Nav.scss'
 
-type NavProps = {
-
-}
+type NavProps = {}
 
 const Nav: React.FC<NavProps> = () => (
-    <div>
-
+    <div className='Nav'>
+        <h1>
+            Loonki
+        </h1>
     </div>
 )
 
