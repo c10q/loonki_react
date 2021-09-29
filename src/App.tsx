@@ -1,13 +1,20 @@
 import React from 'react';
 import './App.scss';
-import Home from "./Pages/Home";
+import Home from "./Pages/Home/Home";
 import Nav from "./Components/common/Nav";
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 function App() {
     return (
         <div className='App'>
             <Nav/>
-            <Home name="노관옥"/>
+            <Router>
+                <Switch>
+                    <Route exact path="/">
+                        <Home name='kwnaok'/>
+                    </Route>
+                </Switch>
+            </Router>
         </div>
     );
 }
