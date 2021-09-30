@@ -10,7 +10,7 @@ function App() {
             <Nav/>
             <Router>
                 <Switch>
-                    <Route exact path="/">
+                    <Route path="/">
                         <Home name='kwnaok'/>
                     </Route>
                 </Switch>

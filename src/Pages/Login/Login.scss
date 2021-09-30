@@ -1,7 +1,62 @@
 @import "../../App.scss";
 
 .Login {
-  width: 100%;
+  width: 125%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   background-color: $mainColor;
+}
+
+.LoginContainer {
+  width: 50%;
+  max-width: 372px;
+  height: 80%;
+}
+
+.LoginBox {
+  display: flex;
+  width: 100%;
+  height: 92.5%;
+  background-color: #3F4759;
+  padding: 8px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.LoginTitle {
+  font-weight: bold;
+  font-size: 1.75rem;
+  color: $mainDarkColor;
+}
+
+.LoginLogo {
+  margin: 8px;
+}
+
+.LoginInput {
+  width: 80%;
+  background-color: #EDD7C3;
+  border-radius: 4px;
+  border: 0;
+  margin: 24px 0;
+  height: 24px;
+  padding: 4px 8px;
+  font-size: 19px;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+}
+
+.LoginInput-focused {
+  width: 240px;
+}
+
+.LoginInput:focus{
+  outline: none;
+  background-color: #FFF4EB;
 }
